@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 40px;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.hamburger{
+    display: none;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    margin-bottom: 0.5rem;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    border-radius: 40px;
+}
+section{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+  .title h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #about,
+  #tours {
+    height: 80vh;
+  }
+  #services{
+    height: 90vh;
+  }
+#about{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    border-radius: 20px;
+}
+.title-about{
+    width:300px;
+    background-color:lightpink;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+}
+
+.skills{
+    width:300px;
+    background-color:slategray;
+    border-radius: 20px;
+    margin: 10px;
+}
+.connectMe{
+    width:300px;
+    background-color:purple;
+    
+    border-radius: 20px;
+    margin: 10px;
+}
+  .project-con{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 40px;
+  }
+  .project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+@media screen and(max-width:992px){
+    .project-con{
+        width:50%
+    }
+    
+}
+
+@media screen and(max-width:600px){
+    #about,#services,
+    #tours{
+        width:100%
+    }
+    
+}
+  #about{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    flex-wrap: wrap;
+  }
+  footer {
+    background: grey;
+    padding: 5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  footer p {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  } 
+  .image-Cont{
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    padding:50px;
+    border-radius: 20px;
+  }
+.img-1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
