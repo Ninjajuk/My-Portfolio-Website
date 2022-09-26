@@ -258,5 +258,7 @@ input[type=text],[type=email]{
     
       }
     }
-   
+   .dark-mode {
+  background-color: black;
+  color: white;
      
